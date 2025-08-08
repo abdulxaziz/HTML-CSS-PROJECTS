@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins","sans-serif";
+}
+
+body{
+    display:flex;
+    justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     border-style: 2px solid ;
+     background-image: url(img.jpg);
+     background-size: cover;
+     background-position: center;
+     
+}
+
+.container{
+    width: 420px;
+    border: 2px solid  rgb(255,255,255,.2);
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,.1)
+    
+}
+
+.container h1{
+    text-transform: capitalize;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.container .name{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.name input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(255,255,255,.2);
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    font-size: 16px;
+    outline: none;
+    color: white;
+}
+
+.name input::placeholder{
+    color:white;
+}
+
+.name i{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin: -15px 0 15px;
+    font-size: 14.5px;
+    color: white;
+}
+
+.remember input{
+    accent-color: white;
+}
+
+.remember a{
+    text-decoration: none;
+    color: white;
+   
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 45px;
+    border: 2px solid rgb(255,255,255,.2);
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    outline: none;
+    padding-top: 15px;
+    color: black;
+}
+
+.account{
+    display:flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.account  a{
+     text-decoration:none ;
+    color: white;
+     font-weight: 600;
+     text-transform: capitalize;
+}
+
+.account a:hover{
+    text-decoration: underline;
+}
